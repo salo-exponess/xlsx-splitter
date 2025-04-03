@@ -18,8 +18,6 @@ const header = XLSX.utils.sheet_to_json(ws, {header: 1})[0]
 // El resto de las filas se utilizan como datos
 const items = XLSX.utils.sheet_to_json(ws, {header: 1, range: 1})
 
-// console.log(items)
-
 // Se calcula la cantidad de archivos necesarios
 const files = Math.ceil(items.length / rows)
 
