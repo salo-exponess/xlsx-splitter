@@ -5,5 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "xlsx": "^0.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salo-exponess/xlsx-splitter.git"
+  },
+  "license": "ISC"
 }
