@@ -1,0 +1,9 @@
+{
+  "name": "xlsx-splitter",
+  "version": "1.0.0",
+  "description": "A Node.js tool to split an XLSX file into smaller files based on row count.",
+  "main": "index.js",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
